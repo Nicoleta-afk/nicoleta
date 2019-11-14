@@ -1,5 +1,5 @@
 body {
-  background-color: tan;
+  background-color: rgb(210, 180, 140);
   font-family: sans-serif;
 }
 h1{
@@ -12,13 +12,14 @@ h1,h3 {
 h3 {
   color: saddlebrown;
 }
-#special {
-  color: brown;
-span {
+.tea {
   color: green;
 }
-span {
-  color: green;
+.coffe {
+  color: rgb(70, 50, 31);
+}
+#special {
+  color: brown;
 }
 span {
   color: green;
