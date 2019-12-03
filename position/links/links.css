@@ -1,0 +1,48 @@
+a {
+color:rgb(240, 125, 125);
+text-decoration: none;
+}
+a:link{
+
+}
+a:visited{
+    color: brown;
+}
+a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-color: darkseagreen;
+} 
+::selection {
+    background-color: burlywood;
+}
+::first-line {
+    text-transform: uppercase;
+}
+.magic {
+    display: none;
+    position: absolute;
+    top: 1em;
+    background-color: teal;
+    border-radius: 5px;
+}
+.dropdown:hover .magic {
+    display: block;
+}
+
+
+
+.trans {
+    background-color: rgb(133, 158, 196);
+    border-radius: lem;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    padding: 30px;
+    transform: rotate(30deg) scale(0.5,0.5);
+    transform: scale(3);
+    transition: background-color 2s;
+}
+.trans:hover {
+    background-color: tomato; 
+}
