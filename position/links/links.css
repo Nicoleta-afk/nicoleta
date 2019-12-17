@@ -45,4 +45,17 @@ a:hover{
 }
 .trans:hover {
     background-color: tomato; 
+    transition: transform1s,background-color 2s;
+}
+.trans2 {
+    background-color: cornflowerblue;
+    position: absolute;
+    top:30%;
+    left:30%;
+    padding:10%;
+    transform:rotate(-30deg);
+    transform-origin: top left;
+    transition:transform 2s;
+    transition-delay: 1s;
+
 }
